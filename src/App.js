@@ -1,46 +1,36 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
-function App() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+function SendData() {
+  const [message, setMessage] = useState("");
   const [response, setResponse] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-  const res = await fetch("https://mybackend-5-fzao.onrender.com/Api/send-data/", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({ name: "Sachin", message: "Hello from frontend" }),
-});
-    const data = await res.json();
-    setResponse(data.message);
+  const handleSend = async () => {
+    try {
+      const res = await axios.post(
+        "https://mybackend-5-fzao.onrender.com/api/send-data/",
+        { message }  // backend ko ye JSON send hoga
+      );
+      setResponse(res.data); // backend ka response show karne ke liye
+    } catch (err) {
+      console.error(err);
+      setResponse("Error sending data");
+    }
   };
 
   return (
-    <div style={{ margin: "50px" }}>
-      <h2>React → Django Form</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Enter Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <br /><br />
-        <input
-          type="email"
-          placeholder="Enter Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <br /><br />
-        <button type="submit">Submit</button>
-      </form>
-      <p>{response}</p>
+    <div>
+      <input
+        type="text"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        placeholder="Type something"
+      />
+      <button onClick={handleSend}>Send</button>
+
+      {response && <p>Response: {response}</p>}
     </div>
   );
 }
 
-export default App;
+export default SendData;
