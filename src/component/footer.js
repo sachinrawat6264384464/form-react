@@ -1,0 +1,30 @@
+import React from "react";
+import "./footer.css";
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <div className="footer-top">
+        <h3>
+          VISIT_THE <span>World</span>
+        </h3>
+        <p className="tagline">
+          Discover. Explore. Experience — the magic of Incredible World!
+        </p>
+      </div>
+
+      <div className="footer-links">
+        <a href="#about">About</a>
+        <a href="#places">Places</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} Visit_The_India. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
