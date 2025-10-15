@@ -9,9 +9,11 @@ function Card() {
   <section className="home">
   <div className="app">
   <div className="welcome-section">
-    <h1> Begin your dream journey  <span >To-Day </span></h1>
+    <h1> Begin with  your <span >Dream Destination </span></h1>
     <h2><div className="scroll-text"><span>World-Tour</span></div> </h2>
-    <p>Find new places, plan easily, and keep your favourites together...</p>
+    <pre><p>Set your sights on stunning places,plan 
+            epic adventures,and save every Dream 
+                 Destination....</p></pre>
     <Link to="/Places" className="explore-btn">Start Exploring</Link>
   </div>
 
