@@ -9,7 +9,7 @@ const [search, setSearch] = useState("");
   );
 
   const destinations = [
-    { id: 1, name: "INDONESIA", desc: "City of Lights", img: "https://www.holidify.com/images/bgImages/INDONESIA.jpg" },
+  { id: 1, name: "INDONESIA", desc: "City of Lights", img: "https://www.holidify.com/images/bgImages/INDONESIA.jpg" },
   { id: 2, name: "SINGAPORE", desc: "Land of the Rising Sun", img: "https://www.holidify.com/images/bgImages/SINGAPORE.jpg" },
   { id: 3, name: "THAILAND", desc: "The Big Apple", img: "https://www.holidify.com/images/bgImages/THAILAND.jpg"},
   { id: 4, name: "MALDIVES", desc: "Tropical paradise", img: "https://www.holidify.com/images/bgImages/MALDIVES.jpg" },
@@ -56,8 +56,8 @@ const [search, setSearch] = useState("");
           <p>{place.desc}</p>
           <button onClick={() => toggleFavorite(place)}>
             {favorites.find((f) => f.id === place.id)
-              ? "✅ Remove Favorite"
-              : "❌ Add Favorite"}
+              ? "❌ Remove Favorite"
+              : "✅ Add Favorite"}
           </button>
         </div>
       ))}

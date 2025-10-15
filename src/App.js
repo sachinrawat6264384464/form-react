@@ -28,7 +28,11 @@ function App() {
               <Text
                 content1={
                   <p style={{ fontSize: "1.2rem" }}>
-                    London is a place where modernity and history beautifully come together. Its famous landmarks such as Big Ben, Buckingham Palace, the London Eye, and Tower Bridge attract visitors from all over the world. The city’s art galleries, museums, shopping streets like Oxford Street and Camden Market, and Thames River cruises offer unforgettable experiences. London’s multicultural vibe and royal charm make it one of the most vibrant cities in the world. Every season brings something new to explore — from classic double-decker bus rides to relaxing strolls in beautiful parks like Hyde Park.
+                    1. London is a place where modernity and history beautifully come together.<br></br><br></br>
+                    2. Its famous landmarks such as Big Ben, Buckingham Palace, the London Eye, and Tower Bridge attract visitors from all over the world. <br></br><br></br>
+                    3. The city’s art galleries, museums, shopping streets like Oxford Street and Camden Market, and Thames River cruises offer unforgettable experiences. <br></br><br></br>
+                    4. London’s multicultural vibe and royal charm make it one of the most vibrant cities in the world. <br></br><br></br>
+                
  </p>
                 }
                 content2={
@@ -38,6 +42,7 @@ function App() {
                     style={{
                       width: "100%",
                       height: "100%",
+                      fontSize:"4vw",
                       borderRadius: "18px",
                     }}
                   />
@@ -58,7 +63,10 @@ function App() {
                 }
                 content2={
                   <p style={{ fontSize: "1.2rem" }}>
-                   Germany is world-famous for its beautiful landscapes, magnificent castles, and advanced technology. Landmarks like the Berlin Wall, Neuschwanstein Castle, the Black Forest, and festivals such as Oktoberfest offer travelers a truly unique experience. The country represents a perfect blend of history, architecture, and innovation. The people are friendly and deeply rooted in their rich culture. Cities like Berlin, Munich, Hamburg, and Frankfurt are known for their clean transport, delicious food, and stunning scenery. Germany is the perfect destination for those who seek adventure, culture, and education all in one place.
+                  1. Germany is world-famous for its beautiful landscapes, magnificent castles, and advanced technology. <br></br><br></br>
+                  2. Landmarks like the Berlin Wall, Neuschwanstein Castle, the Black Forest, and festivals such as Oktoberfest offer travelers a truly unique experience. <br></br><br></br>
+                  3. The country represents a perfect blend of history, architecture, and innovation. <br></br><br></br>
+                  4. The people are friendly and deeply rooted in their rich culture. 
 
                    
                    </p>

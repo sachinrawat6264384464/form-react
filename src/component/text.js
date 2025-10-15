@@ -6,7 +6,7 @@ const Text = ({ content1, content2 }) => {
     flexWrap: "wrap", // allow stacking on small screens
     justifyContent: "center", // center content horizontally
     alignItems: "flex-start",
-    backgroundColor: "rgba(207, 202, 202, 1)",
+    backgroundColor: "rgba(43, 104, 161, 1)",
     padding: "20px",
     gap: "20px", // spacing between boxes
     minHeight: "50vh",
@@ -16,7 +16,7 @@ const Text = ({ content1, content2 }) => {
     flex: "1 1 300px", // base width 300px, grows/shrinks
     maxWidth: "600px", // prevent too wide on large screens
     minHeight: "250px",
-    backgroundColor: "rgba(61, 59, 59, 1)",
+   
     borderRadius: "20px",
     color: "white",
     display: "flex",
