@@ -9,16 +9,16 @@ const [search, setSearch] = useState("");
   );
 
   const destinations = [
-    { id: 1, name: "", desc: "City of Lights", img: "https://www.holidify.com/images/bgImages/INDONESIA.jpg" },
-  { id: 2, name: "", desc: "Land of the Rising Sun", img: "https://www.holidify.com/images/bgImages/SINGAPORE.jpg" },
-  { id: 3, name: "", desc: "The Big Apple", img: "https://www.holidify.com/images/bgImages/THAILAND.jpg"},
-  { id: 4, name: "", desc: "Tropical paradise", img: "https://www.holidify.com/images/bgImages/MALDIVES.jpg" },
+    { id: 1, name: "INDONESIA", desc: "City of Lights", img: "https://www.holidify.com/images/bgImages/INDONESIA.jpg" },
+  { id: 2, name: "SINGAPORE", desc: "Land of the Rising Sun", img: "https://www.holidify.com/images/bgImages/SINGAPORE.jpg" },
+  { id: 3, name: "THAILAND", desc: "The Big Apple", img: "https://www.holidify.com/images/bgImages/THAILAND.jpg"},
+  { id: 4, name: "MALDIVES", desc: "Tropical paradise", img: "https://www.holidify.com/images/bgImages/MALDIVES.jpg" },
   
   
-  { id: 5, name: "", desc: "The historic city", img: "https://www.holidify.com/images/bgImages/SRI-LANKA.jpg"},
-  { id: 6, name: "", desc: "Harbor city", img: "https://www.holidify.com/images/bgImages/VIETNAM.jpg" },
-  { id: 7, name: "", desc: "Harbor city", img: "https://www.holidify.com/images/bgImages/DUBAI.jpg" },
-  { id: 8, name: "", desc: "Harbor city", img: "https://www.holidify.com/images/bgImages/MALAYSIA.jpg" },
+  { id: 5, name: "SRI-LANKA", desc: "The historic city", img: "https://www.holidify.com/images/bgImages/SRI-LANKA.jpg"},
+  { id: 6, name: "VIETNAM", desc: "Harbor city", img: "https://www.holidify.com/images/bgImages/VIETNAM.jpg" },
+  { id: 7, name: "DUBAI", desc: "Harbor city", img: "https://www.holidify.com/images/bgImages/DUBAI.jpg" },
+  { id: 8, name: "MALAYSIA", desc: "Harbor city", img: "https://www.holidify.com/images/bgImages/MALAYSIA.jpg" },
 
 ];
 

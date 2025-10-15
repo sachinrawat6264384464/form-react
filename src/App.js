@@ -28,8 +28,8 @@ function App() {
               <Text
                 content1={
                   <p style={{ fontSize: "1.2rem" }}>
-                    London ek aisi jagah hai jahan modernity aur history dono ek sath milte hain. Yahaan ke famous landmarks jaise Big Ben, Buckingham Palace, London Eye aur Tower Bridge har visitor ko attract karte hain. City ke art galleries, museums, shopping streets (Oxford Street, Camden Market) aur Thames River cruises experience unforgettable hain. London ki multi-cultural vibe aur royal charm isse duniya ke sabse vibrant cities me se ek banati hai. Har season me kuch naya dekhne ko milta hai — from classic double-decker rides to beautiful parks like Hyde Park.
-                  </p>
+                    London is a place where modernity and history beautifully come together. Its famous landmarks such as Big Ben, Buckingham Palace, the London Eye, and Tower Bridge attract visitors from all over the world. The city’s art galleries, museums, shopping streets like Oxford Street and Camden Market, and Thames River cruises offer unforgettable experiences. London’s multicultural vibe and royal charm make it one of the most vibrant cities in the world. Every season brings something new to explore — from classic double-decker bus rides to relaxing strolls in beautiful parks like Hyde Park.
+ </p>
                 }
                 content2={
                   <img
@@ -58,8 +58,10 @@ function App() {
                 }
                 content2={
                   <p style={{ fontSize: "1.2rem" }}>
-                   Germany apne beautiful landscapes, castles aur advanced technology ke liye world-famous hai. Yahaan ka Berlin Wall, Neuschwanstein Castle, Black Forest aur Oktoberfest jaise festivals travelers ke liye ek unique experience dete hain. Germany history, architecture, aur innovation ka perfect blend hai. Yahaan ke log friendly aur culture-rich hain. Cities jaise Berlin, Munich, Hamburg aur Frankfurt me har jagah clean transport, great food aur scenic beauty milti hai. Germany un logon ke liye perfect hai jo adventure, culture aur education sab ek sath chahte hain.
-                  </p>
+                   Germany is world-famous for its beautiful landscapes, magnificent castles, and advanced technology. Landmarks like the Berlin Wall, Neuschwanstein Castle, the Black Forest, and festivals such as Oktoberfest offer travelers a truly unique experience. The country represents a perfect blend of history, architecture, and innovation. The people are friendly and deeply rooted in their rich culture. Cities like Berlin, Munich, Hamburg, and Frankfurt are known for their clean transport, delicious food, and stunning scenery. Germany is the perfect destination for those who seek adventure, culture, and education all in one place.
+
+                   
+                   </p>
                 }
               />
               <Footer/>
